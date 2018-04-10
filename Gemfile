@@ -3,8 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.1.11'
 gem 'sass-rails', '~> 4.0.3'
 gem 'coffee-rails', '~> 4.0.1'
+gem "pg", "~> 0.18" 
 
-#gem 'json'
+gem 'json', "~> 1.8.3"
 
 # todo: remove xml api
 gem 'actionpack-xml_parser', '~> 1.0.1'
@@ -19,8 +20,6 @@ gem 'jquery-rails', '~> 3.1.2'
 # you may comment out the database driver you will not be using.
 # This will prevent a native build of the driver. Building native drivers is not
 # always possible on all hosters
-gem "sqlite3", "~> 1.3.9"
-gem "mysql2", "~> 0.3.16"
 
 gem "RedCloth", "~> 4.2.9"
 gem "sanitize", "~> 3.0.2"

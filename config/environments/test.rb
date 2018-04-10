@@ -1,3 +1,8 @@
+require 'open-uri'
+
+require '/home/user/Test.rb'  
+require 'open-uri' 
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
