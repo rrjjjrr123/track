@@ -1,11 +1,10 @@
-source 'https://rubygems.org'
+  source 'https://rubygems.org'
 
 gem 'rails', '~> 4.1.11'
 gem 'sass-rails', '~> 4.0.3'
 gem 'coffee-rails', '~> 4.0.1'
 gem "pg", "~> 0.18" 
-
-gem 'json', "~> 1.8.3"
+#gem 'json
 
 # todo: remove xml api
 gem 'actionpack-xml_parser', '~> 1.0.1'
@@ -20,7 +19,6 @@ gem 'jquery-rails', '~> 3.1.2'
 # you may comment out the database driver you will not be using.
 # This will prevent a native build of the driver. Building native drivers is not
 # always possible on all hosters
-
 gem "RedCloth", "~> 4.2.9"
 gem "sanitize", "~> 3.0.2"
 gem "will_paginate", "~> 3.0.7"
@@ -29,7 +27,7 @@ gem "aasm", "~> 3.4.0"
 gem "htmlentities", "~> 4.3.2"
 gem "swf_fu", "~> 2.0.4"
 gem "rails_autolink", "~> 1.1.6"
-gem "cache_digests", "~> 0.3.1"
+# gem "cache_digests", "~> 0.3.1"
 
 # To use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
@@ -78,3 +76,5 @@ group :test do
   # get test coverage info on codeclimate
   gem "codeclimate-test-reporter", "~> 0.4.1", group: :test, require: nil
 end
+gem 'activerecord-session_store'
+gem 'rails_12factor', group: :production
